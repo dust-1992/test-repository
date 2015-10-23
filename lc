@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# -eq 2 ];then
+	./low < $1 > $2
+
+else 
+	echo "usage: lc file1 file2"
+
+fi
